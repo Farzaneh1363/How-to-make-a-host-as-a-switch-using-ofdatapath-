@@ -28,6 +28,8 @@ After running ofdatapath and ofprotocol, we need to connect the openflow switch 
 Note!!! if the system have not found the controller for 30 sec., the default controller will work automatically.
 
 After that we could ping host h1 via h3 or vica versa or we could have an iperf session between these two hosts. 
+
+The credit of code is going back to Anees al-najjar (anees.alnajjar@uq.net.au) .
 """
 
 from mininet.net import Mininet
