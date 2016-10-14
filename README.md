@@ -14,5 +14,5 @@ And in h2 run your controller. In this example we run POX controller in h2:
 After that you can run an iperf session between these two hosts and compare the result with the kernel mode switches.
 you could see the userspace switch is much slower than OVS in kernel space. 
     
-
+The ceredit of code is going back to Anees al-najjar. 
 
